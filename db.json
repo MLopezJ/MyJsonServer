@@ -1,14 +1,11 @@
 {
-    "posts": [
-      { "id": 1, "title": "Post 1" },
-      { "id": 2, "title": "Post 2" },
-      { "id": 3, "title": "Post 3" }
+    "projects": [
+      { "id": 1, "name": "A", "site":"New York" },
+      { "id": 2, "name": "B", "site":"Alberta"},
+      { "id": 3, "name": "C", "site":"Toronto" }
     ],
-    "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 },
-      { "id": 2, "body": "some comment", "postId": 1 }
-    ],
-    "profile": {
-      "name": "typicode"
-    }
+    "companies": [
+      { "id": 1, "name": "left join", "projects": 1, "site": 1, "controllers": 30, "panels":11 },
+      { "id": 2, "name": "inner join", "projects": 1, "site": 1, "controllers": 30, "panels":11 }
+    ]
   }
